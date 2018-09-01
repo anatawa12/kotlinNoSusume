@@ -3,6 +3,7 @@ package com.anatawa12.infraWorkshop.kotlinNoSusume.objectsMethods;
 /**
  * Created by anatawa12 on 2018/06/24.
  */
+@SuppressWarnings("ConstantConditions")
 public class ObjectMethodsCallerInvoker {
 	public static void main(String[] args) {
 		//ObjectMethodsCaller caller = new JavaUnsafeObjectMethodsCaller();

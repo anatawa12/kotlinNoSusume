@@ -6,6 +6,7 @@ import org.jetbrains.annotations.Nullable;
 /**
  * Created by anatawa12 on 2018/06/24.
  */
+@SuppressWarnings("NullableProblems")
 public interface ObjectMethodsCaller {
 	boolean nullableEquals(@Nullable Object o1, @Nullable Object o2);
 	boolean nonNullableEquals(@NotNull Object o1, @NotNull Object o2);

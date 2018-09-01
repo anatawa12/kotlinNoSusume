@@ -1,3 +1,5 @@
+@file:Suppress("NAME_SHADOWING")
+
 package com.anatawa12.infraWorkshop.kotlinNoSusume.coroutines
 
 import com.anatawa12.infraWorkshop.kotlinNoSusume.coroutines.JavaCallBacks.PORT
@@ -275,7 +277,7 @@ suspend fun client5(sendMessage: ByteArray, data: Consumer<ByteArray>, error: Co
 	val result = client.aWrite(wBuf)
 
 	do {
-		println("CLIENT: write " + result)
+		println("CLIENT: write $result")
 		if (result == 0) {
 			error.accept(IOException("Write Error"))
 			return
@@ -286,7 +288,7 @@ suspend fun client5(sendMessage: ByteArray, data: Consumer<ByteArray>, error: Co
 		val rBuf = ByteBuffer.allocate(SIZE)
 		val result = client.aRead(rBuf)
 		do {
-			println("CLIENT: read " + result!!)
+			println("CLIENT: read $result")
 			if (result < 0) {
 				data.accept(s.toByteArray())
 				println("CLIENT: done " + Arrays.toString(rBuf.array()))

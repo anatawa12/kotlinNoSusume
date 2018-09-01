@@ -1,3 +1,5 @@
+@file:Suppress("unused")
+
 package com.anatawa12.infraWorkshop.kotlinNoSusume.extensions
 
 import java.nio.charset.Charset

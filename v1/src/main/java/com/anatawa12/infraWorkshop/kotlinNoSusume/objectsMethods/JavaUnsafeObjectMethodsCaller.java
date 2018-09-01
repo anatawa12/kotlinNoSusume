@@ -3,6 +3,7 @@ package com.anatawa12.infraWorkshop.kotlinNoSusume.objectsMethods;
 /**
  * Created by anatawa12 on 2018/06/24.
  */
+@SuppressWarnings("NullableProblems")
 public class JavaUnsafeObjectMethodsCaller implements ObjectMethodsCaller {
 	@Override
 	public boolean nullableEquals(Object o1, Object o2) {

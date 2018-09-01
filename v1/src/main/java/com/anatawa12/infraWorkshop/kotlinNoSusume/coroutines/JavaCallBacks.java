@@ -12,6 +12,7 @@ import java.util.function.Consumer;
 /**
  * Created by anatawa12 on 2018/06/24.
  */
+@SuppressWarnings("CatchMayIgnoreException")
 public class JavaCallBacks {
 	public static int SIZE = 100;
 	public static int PORT = 80;

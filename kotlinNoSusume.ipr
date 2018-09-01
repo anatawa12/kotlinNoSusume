@@ -4,6 +4,8 @@
     <bytecodeTargetLevel>
       <module name="kotlinNoSusume_main" target="1.8" />
       <module name="kotlinNoSusume_test" target="1.8" />
+      <module name="v1_main" target="1.8" />
+      <module name="v1_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="GradleSettings">
@@ -15,6 +17,7 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/v1" />
           </set>
         </option>
         <option name="useAutoImport" value="true" />
@@ -157,6 +160,9 @@
       <module fileurl="file://$PROJECT_DIR$/kotlinNoSusume.iml" filepath="$PROJECT_DIR$/kotlinNoSusume.iml" />
       <module fileurl="file://$PROJECT_DIR$/kotlinNoSusume_main.iml" filepath="$PROJECT_DIR$/kotlinNoSusume_main.iml" group="kotlinNoSusume" />
       <module fileurl="file://$PROJECT_DIR$/kotlinNoSusume_test.iml" filepath="$PROJECT_DIR$/kotlinNoSusume_test.iml" group="kotlinNoSusume" />
+      <module fileurl="file://$PROJECT_DIR$/v1/v1.iml" filepath="$PROJECT_DIR$/v1/v1.iml" group="v1" />
+      <module fileurl="file://$PROJECT_DIR$/v1/v1_main.iml" filepath="$PROJECT_DIR$/v1/v1_main.iml" group="v1" />
+      <module fileurl="file://$PROJECT_DIR$/v1/v1_test.iml" filepath="$PROJECT_DIR$/v1/v1_test.iml" group="v1" />
     </modules>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
@@ -236,7 +242,9 @@
       <CLASSES>
         <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/atomicfu-common/0.10.3/95970a5b355bb19908bf8ee7380af7e40211de1a/atomicfu-common-0.10.3.jar!/" />
       </CLASSES>
-      <JAVADOC />
+      <JAVADOC>
+        <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/atomicfu-common/0.10.3/c5291d36441b583992a9bdc5e4c465e644dda104/atomicfu-common-0.10.3-javadoc.jar!/" />
+      </JAVADOC>
       <SOURCES>
         <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/atomicfu-common/0.10.3/91b620e01b4ea89fe48cf01f45906e44b1561fea/atomicfu-common-0.10.3-sources.jar!/" />
       </SOURCES>

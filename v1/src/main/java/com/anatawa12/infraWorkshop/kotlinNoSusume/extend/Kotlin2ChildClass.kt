@@ -5,5 +5,6 @@ package com.anatawa12.infraWorkshop.kotlinNoSusume.extend
  */
 class Kotlin2ChildClass : BaseClass, AnInterface {
 	constructor() : super()
+	@Suppress("unused", "UNUSED_PARAMETER")
 	constructor(int: Int) : this()
 }
