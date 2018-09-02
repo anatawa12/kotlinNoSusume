@@ -1,0 +1,11 @@
+神奈川のグランドキャニオンの近くにいる中３
+C->java->C#
+の順にやったため動的型付けが苦手
+
+使える言語s:
+C
+Java
+Kotlin
+C#
+lua
+php+html+css+js

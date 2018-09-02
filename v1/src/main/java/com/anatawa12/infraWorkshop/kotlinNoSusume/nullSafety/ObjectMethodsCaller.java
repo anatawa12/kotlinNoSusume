@@ -1,4 +1,4 @@
-package com.anatawa12.infraWorkshop.kotlinNoSusume.objectsMethods;
+package com.anatawa12.infraWorkshop.kotlinNoSusume.nullSafety;
 
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;

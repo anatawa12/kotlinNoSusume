@@ -1,0 +1,10 @@
+良い機能
+	coroutine
+		Coroutineに関する互換
+	null safety
+	singletons
+	data classes
+	extensions and inlines
+
+Javaと違うとこ
+	class, enum, and interface definitions

@@ -1,4 +1,4 @@
-package com.anatawa12.infraWorkshop.kotlinNoSusume.compatibility;
+package com.anatawa12.infraWorkshop.kotlinNoSusume.coroutines.compatibility;
 
 import java.util.List;
 

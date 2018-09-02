@@ -1,6 +1,6 @@
 @file:Suppress("DeferredResultUnused")
 
-package com.anatawa12.infraWorkshop.kotlinNoSusume.compatibility
+package com.anatawa12.infraWorkshop.kotlinNoSusume.coroutines.compatibility
 
 import kotlinx.coroutines.experimental.async
 import java.nio.channels.CompletionHandler

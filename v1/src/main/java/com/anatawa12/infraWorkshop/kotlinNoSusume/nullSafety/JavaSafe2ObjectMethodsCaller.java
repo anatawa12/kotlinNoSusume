@@ -1,4 +1,4 @@
-package com.anatawa12.infraWorkshop.kotlinNoSusume.objectsMethods;
+package com.anatawa12.infraWorkshop.kotlinNoSusume.nullSafety;
 
 import java.util.Objects;
 
